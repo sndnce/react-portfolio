@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+.container1 {
+    font-family: figtree;    
+}
+.welcome {
+    font-family: figtree;
+    font-size: 40px;
+    margin-left: 5%;
+    
+    
+
+
+}
+
+.intro {
+    font-family: figtree;
+    padding-bottom: 1%;
+    color: var(--color-text-light-grey);
+    text-shadow: 0px 3px 3px gainsboro;
+    
+}
+
+.niceto {
+    font-family: figtree; 
+    text-shadow: 0px 4px 3px var(--color-text-light-grey);  
+    
+}
+
+.ellapurple {
+    color: var(--color-lightest);
+    font-family: figtree; 
+}
+
+.black {
+    color: var(--color-text-black);
+    font-family: figtree;
+    
+}
+
+
+.container {
+    font-family: figtree;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 0px;
+    flex-direction: row-reverse;
+    transform: translateY(-50px);
+    
+}
+
+.aboutbox {
+    margin-left: 05%;
+    margin-right: 05%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    flex:1.5;
+    background: rgb(211, 211, 211);
+    border-radius: 30px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgb(233, 233, 233, 1) 50%);
+    padding: 24px 40px;
+      
+    
+
+    .aboutme {
+        font-size: 36px;
+        font-family: figtree;
+        text-shadow: 0px 4px 3px var(--color-text-light-grey);
+        padding-bottom: 20px;
+        width: 100%;
+    
+
+    }
+
+
+    .more {
+        font-size: 32px;
+        font-family: figtree;
+
+    }
+}
+
+
+.favi {
+    width: 50%;
+    z-index: 1;
+    text-shadow: 0px 4px 3px var(--color-text-light-grey);
+    margin-right: 5%;
+    
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+
+    }
+    50% {
+        transform: translate(0, 10px);
+        
+    }
+    100% {
+        transform: translate(0, -0px);
+        
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .aboutbox {
+        padding-top: 20px;
+    }
+}

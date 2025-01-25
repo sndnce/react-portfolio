@@ -1,0 +1,100 @@
+@import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 2; 
+    margin: 0 10%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-lightest);
+    text-shadow: 0px 5px 0px var(--color-text-black);
+}
+.menu {
+    display: flex;
+}
+.menuItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    text-shadow: 0px 5px 0px var(--color-text-light-grey);
+
+}
+.aboutLink {
+    color: var(--color-lightest);
+}
+.projectsLink{
+    color: var(--color-light);
+}
+.skillsLink {
+    color: var(--color-dark);
+}
+.contactLink {
+    color: var(--color-darkest);
+}
+
+.menuItems a {
+    font-size: 32px;
+    color: var(--color-lightest);
+    text-decoration: none;
+    text-shadow: 0px 3px 3px var(--color-text-light-grey);
+    font-family: 'Figtree', sans-serif;
+
+}
+
+.menuBtn {
+    display: none;
+}
+
+@media screen and (max-width: 830px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 05%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+        padding-right: 0px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(211, 211, 211);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgb(233, 233, 233, 1) 50%);
+        padding: 24px 33px;
+        
+    }
+
+    .menuOpen {
+        display:flex;
+        z-index: 1;
+
+    }
+
+
+}

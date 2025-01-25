@@ -1,0 +1,15 @@
+:root {
+    /* Colors */
+    --color-darkest: #6730d3;
+    --color-dark:#8731e9;
+    --color-text-black: #000000;
+    --color-text-dark-grey: #717171;
+    --color-text-light-grey: #d3d3d3;
+    --color-light: #a92ce3;
+    --color-lightest: #bc23f2;
+    --color-dark: #0b2447;
+    --color-bg: #fff; 
+
+    /* fonts */
+    --font-robot:"Figtree";
+}

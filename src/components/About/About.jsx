@@ -10,7 +10,7 @@ export const About = () => {
                 <a href="https://ellawhite28.wixsite.com/my-site-1" target="_blank">
                     <img className={styles.fnimage} src="bb.png" />
                 <p className={styles.fortnitegames}>Fortnite Games</p> </a>
-                <p className={styles.fortnitesum}>Founded independent gaming studio to craft and devliver custom fornite experiences to a global playerbase.</p>
+                <p className={styles.fortnitesum}>Founded independent gaming studio to craft and deliver custom fornite experiences to a global playerbase.</p>
                 <p className={styles.fortnitedescr}>Game UI/UX Design, Game Design, 3D Modeling, Social Media Marketing, Verse </p>
             </div>
             <div className={styles.art}>
@@ -29,7 +29,7 @@ export const About = () => {
                         <p className={styles.morework}>More Work</p>
                     </a>
                 </div>
-                <p className={styles.moreworksum}>Persues a wide variety of personal projects ranging from engineering modelling to animation.</p>
+                <p className={styles.moreworksum}>Persues a wide variety of personal projects ranging from engineering modeling to animation.</p>
                 <p className={styles.moredescr}>Technical & Artistic Modeling, Graphic Design, Illustration</p>
             </div>
         </div>

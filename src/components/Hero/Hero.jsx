@@ -19,7 +19,7 @@ export const Hero = () => {
             <img className={styles.favi} src={getImageUrl("Favicon.png")}></img>
             <div className={styles.aboutbox}>
                 <p className={styles.aboutme}>About Me</p>
-                <p className={styles.more} style={{ color: "#717171"}} >I’m a sophomore Computer Science & Economics student at Yale University with a passion for software engineering, art, and game design. </p>
+                <p className={styles.more} style={{ color: "#717171"}} >I’m a sophomore Computer Science & Economics major at Yale University with a passion for software engineering, application development,  game design, and business & finance. I’m equal parts left brained and right brained, and love bringing creativity to solve technical and business problems!  </p>
             </div>
         </div>
     </section>

@@ -65,7 +65,7 @@
 
 .fortnitedescr {
     font-family: figtree;
-    font-size: 32px;
+    font-size: 22px;
     color: var(--color-text-dark-grey);
 
 }
@@ -79,6 +79,11 @@
     font-family: figtree;
 }
 
+.fortnitesum, .artsum, .moreworksum {
+    font-size: 26px;
+    font-family: figtree;
+    padding-bottom: 3.5%;
+}
 
 .artimage {
     width: 200px;
@@ -104,7 +109,7 @@
 
 .artdescr {
     font-family: figtree;
-    font-size: 32px;
+    font-size: 22px;
     color: var(--color-text-dark-grey);
     
 }
@@ -140,7 +145,7 @@
 
 .morework {
     font-family: figtree;
-    font-size: 36px;
+    font-size: 32px;
     padding-bottom: 20px;
     text-shadow: 0px 4px 3px var(--color-text-light-grey);  
     color: var(--color-darkest);
@@ -150,7 +155,7 @@
 
 .moredescr {
     font-family: figtree;
-    font-size: 32px;
+    font-size: 22px;
     color: var(--color-text-dark-grey);
     
 }
@@ -164,9 +169,13 @@
 .fortnitegames, .artexhibit, .morework {
     font-size: 28px;
 }
+.fortnitesum, .artsum, .moreworksum {
+    font-size: 24px;
+    font-family: figtree;
+}
 
 .fortnitedescr, .artdescr, .moredescr {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .fortnite, .art, .more {
@@ -177,4 +186,27 @@
 .fnimage, .artimage, .moreimage {
     max-width: 150px;
 }
+}
+
+a {
+    text-decoration:none !important;
+}
+
+.morework:hover a {
+    text-decoration: none !important;
+}
+.fortnitegames, .artexhibit, .morework {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Figtree";
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-darkest);
+    transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.fortnitegames:hover, .artexhibit:hover, .morework:hover {
+    color: var(--color-lightest);  
+    font-weight: 700;
+    text-decoration: none;
 }
